@@ -1,0 +1,37 @@
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+body{
+  margin: 0;
+}
+h1{
+  background-color: cornsilk;
+  margin: 0px;
+  font-size: 80px;
+  text-align: center;
+  color: black;
+  font-family: 'hanna';
+  padding: 30px;
+  border-bottom: 5px solid black;
+  width: 100%;
+}
+#top button{
+    color: black;
+    background-color: cornsilk;
+    border: 1px solid gray;
+    padding: 10px 24px;
+    cursor: pointer;
+    float: left;
+    width: 20%;
+    margin: 0;
+    margin-top: -19px;
+    font-family: 'hanna';
+    font-size: 20px;
+}
+#top button:hover{
+    background-color: #b0f2ff;
+    color: black;
+}
+
+.hot p{
+  font-size: 30px;
+  margin-bottom: 5px;
+}
