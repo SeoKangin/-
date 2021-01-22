@@ -2,6 +2,9 @@
 body{
   margin: 0;
   padding-top: 160px;
+  background-image: url(https://www.freecodecamp.org/news/content/images/2020/04/w-qjCHPZbeXCQ-unsplash.jpg);
+  background-attachment: fixed;
+  background-position:  center;
 }
 header{
   z-index: 1;
@@ -10,19 +13,22 @@ header{
   top: 0;
 }
 h1{
-  background-color: cornsilk;
+  background-image: url(https://www.freecodecamp.org/news/content/images/2020/04/w-qjCHPZbeXCQ-unsplash.jpg);
+  background-attachment: fixed;
+  background-position:  center;
   margin: 0px;
   font-size: 80px;
   text-align: center;
   color: black;
   font-family: 'hanna';
-  padding: 30px;
   border-bottom: 5px solid black;
   width: 100%;
 }
 #top button{
     color: black;
-    background-color: cornsilk;
+    background-image: url(https://www.freecodecamp.org/news/content/images/2020/04/w-qjCHPZbeXCQ-unsplash.jpg);
+    background-attachment: fixed;
+    background-position:  center;
     border: 1px solid gray;
     padding: 10px 24px;
     cursor: pointer;
@@ -34,26 +40,30 @@ h1{
     font-size: 20px;
 }
 #top button:hover{
-    background-color: #b0f2ff;
-    color: black;
+    background-image: url(https://www.freecodecamp.org/news/content/images/2020/04/w-qjCHPZbeXCQ-unsplash.jpg);
+    background-attachment: fixed;
+    background-position:  center;
+    color: white;
 }
 
 .hot p{
   font-size: 30px;
   margin-bottom: 5px;
+  color: black;
 }
 
 
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
-img {vertical-align: middle;}
+img {vertical-align: middle;;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+  max-width: 300px;
+  position: sticky;
+  margin-left: 39%;
+
 }
 
 /* Next & previous buttons */
